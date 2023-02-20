@@ -1,20 +1,56 @@
-.about_me {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-top: 400px;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-    
-    
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
 }
 
-body {
-    background-image: url(https://wallpaperaccess.com/full/4091251.png);
-    background-size: cover;
-   
-    
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
 }
+
+.background {
+	background-image: url('https://wallpaperaccess.com/full/4091251.png');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	position: relative;
+}
+
+.top_part {
+    color: white;
+    text-align: center;
+    padding: 400px;
+}    
+
+.content {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+}
+
+h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+p , li {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.fade {
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
